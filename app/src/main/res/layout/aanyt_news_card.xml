@@ -4,7 +4,9 @@
     android:id="@+id/news_card"
     android:layout_width="wrap_content"
     android:paddingBottom="16dp"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
     <android.support.v7.widget.RecyclerView
         android:id="@+id/nyt_news_op_recycle"
         android:layout_width="wrap_content"
